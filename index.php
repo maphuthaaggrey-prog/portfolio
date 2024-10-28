@@ -1,0 +1,270 @@
+<?php session_start(); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Maphutha Aggrey</title>
+    <link rel="icon" href="images/a.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/keyframes.css" type="text/css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navigation-bar">
+            <a href="index.php">
+                <p class="logo">aggrey</p>
+            </a>
+            <nav>
+                <a href="#"> <svg width="38" height="43" class="menu-icon" viewBox="0 0 48 48" fill="currentcolor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 24H42M6 12H42M6 36H42" stroke="currentcolor" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                </a>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="menu-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="close-btn" fill="currentcolor" width="43"
+                                height="47" viewBox="0 0 24 24">
+                                <path
+                                    d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z" />
+                            </svg></a>
+                    </li>
+                    <li><a href="index.php" class="active">Home</a></li>
+                    <li>
+                        <a href="certificates.html">Certificates</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="introduction">
+            <h1>Hi,</h1>
+            <h1>I'm Aggrey</h1>
+            <h1>Maphutha</h1>
+            <h3>UI/UX Designer | Front End Developer</h3>
+            <p class="intro-text">I am a passionate junior front-end developer and UI/UX designer with a strong
+                foundation in creating responsive, user-friendly web interfaces.
+            </p>
+
+
+            <div class="qualities scroll">
+                <p class="quality">Creative</p>
+                <p class="quality">Organized</p>
+            </div>
+
+        </div>
+
+        <div class="photo">
+            <img src="images/myPhoto.png" class="myphoto">
+            <div class="circle"></div>
+        </div>
+    </div>
+
+
+    <section class="hero-about scroll">
+        <div class="about-hero">
+            <p class="page-heading ">About me</p>
+            <div class="divider-line"></div>
+            <div class="about-me ">
+
+                <div class="hero-story scroll">
+                    <p class="about-text ">I'm Aggrey Maphutha, a 22-year-old aspiring web developer from Ga-Masemola,
+                        Limpopo. I am currently in my final year at Nkangala TVET College, where I am pursuing a
+                        qualification in Information Technology and Computer Science
+                        (NQF Level 4).
+                    </p>
+                    <p class="about-text "> Outside of my academic pursuits, I enjoy staying updated on the latest tech
+                        trends, and exploring new technologies. I also take pride in my problem-solving abilities,
+                        adaptability, and dedication to continuous learning. If you have
+                        any opportunities that align with my skills and aspirations, please feel free to reach out. I’m
+                        excited about the future and look forward to contributing to the tech industry as a software
+                        developer.</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="skills-hero scroll">
+        <p class="page-heading">My skills</p>
+        <div class="divider-line"></div>
+        <div class="progress-container">
+            <div class="designer-skills">
+                <div class="skill">
+                    <h3>Figma</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>Adobe XD</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 84%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>Draw IO</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>mySQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Wireframing & Prototyping</li>
+                    <li> Responsive & Adaptive Design</li>
+                </ul>
+            </div>
+            <br />
+            <br />
+            <div class="developer-skills scroll">
+                <div class="skill">
+                    <h3>HTML CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>Javascript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 48%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>PHP</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <h3>React.js</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 15%;"></div>
+                    </div>
+                </div>
+                <ul>
+                    <li>Design Thinking</li>
+                    <li>Design to Code</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <section class="certificates scroll">
+        <p class="page-heading">Project worked on</p>
+        <div class="divider-line"></div>
+        <div class="projects-container">
+            <div class="frame">
+                <div class="frame-box">
+                    <a href="https://maphuthaaggrey-prog.github.io/veteran-beatx/index.html#" target="_blank">
+                        <img src="./images/Frame 1.png" class="project-image"></a>
+                </div>
+                <div class="project">
+
+                    <h3 class="project-name">Veteran Beatx</h3>
+                    <a href="https://maphuthaaggrey-prog.github.io/veteran-beatx/index.html#" target="_blank">
+                        <h5>Personal Music Platform</h5>
+                    </a>
+                    <p class="project-desc">On this website, you'll find a collection of Veteran's latest beats, music
+                        productions, and projects. We are excited to share our art with you and hope you'll join us on
+                        this musical journey.</p>
+                    <div class="qualities">
+                        <p class="skill-code">HTML</p>
+                        <p class="skill-code">CSS</p>
+                        <p class="skill-code">Javascript</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="divider-line project-line" id=".scroll"></div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-cont" id="footer-cont">
+            <form method="post" action='message.php'>
+                <p class="send-message">Send message</p>
+                <fieldset>
+                    <label for="first-name">Enter Your Name: <input id="first-name" name="first-name" type="text"
+                            placeholder="Example: Aggrey" />
+
+                    </label>
+                    <label for="email">Enter Your Email: <input id="email" name="email" type="email"
+                            placeholder="Example: maphuthaaggrey83@gmail.com" />
+
+                    </label>
+                    <label for="phone">Enter Phone number: <input id="phone" name="phone" type="tel"
+                            placeholder="Example: 0765216787" />
+
+                    </label>
+                    <label for="message">Message:
+                        <textarea id="message" name="message" rows="6" cols="30" placeholder="Your Enquiry"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit" name="send-message" class="submit-btn" />
+            </form>
+            <div class="social-icons">
+                <a href="mailto:maphuthaaggrey83@gmail.com"><i class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="currentcolor" viewBox="0 0 24 24" width="38px" height="38px">
+                            <path
+                                d="M 4 4 C 2.895 4 2 4.895 2 6 L 2 18 C 2 19.105 2.895 20 4 20 L 20 20 C 21.105 20 22 19.105 22 18 L 22 6 C 22 4.895 21.105 4 20 4 L 4 4 z M 5.5976562 6 L 18.402344 6 L 12 10 L 5.5976562 6 z M 5 8.6269531 L 12 13 L 19 8.6269531 L 19 18 L 5 18 L 5 8.6269531 z" />
+                        </svg></i>
+                </a>
+                <a href="https://wa.link/hxnh0o"><i class="icon"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="currentcolor" viewBox="0 0 24 24" width="38px" height="38px">
+                            <path
+                                d="M19.077,4.928C17.191,3.041,14.683,2.001,12.011,2c-5.506,0-9.987,4.479-9.989,9.985 c-0.001,1.76,0.459,3.478,1.333,4.992L2,22l5.233-1.237c1.459,0.796,3.101,1.215,4.773,1.216h0.004 c5.505,0,9.986-4.48,9.989-9.985C22.001,9.325,20.963,6.816,19.077,4.928z M16.898,15.554c-0.208,0.583-1.227,1.145-1.685,1.186 c-0.458,0.042-0.887,0.207-2.995-0.624c-2.537-1-4.139-3.601-4.263-3.767c-0.125-0.167-1.019-1.353-1.019-2.581 S7.581,7.936,7.81,7.687c0.229-0.25,0.499-0.312,0.666-0.312c0.166,0,0.333,0,0.478,0.006c0.178,0.007,0.375,0.016,0.562,0.431 c0.222,0.494,0.707,1.728,0.769,1.853s0.104,0.271,0.021,0.437s-0.125,0.27-0.249,0.416c-0.125,0.146-0.262,0.325-0.374,0.437 c-0.125,0.124-0.255,0.26-0.11,0.509c0.146,0.25,0.646,1.067,1.388,1.728c0.954,0.85,1.757,1.113,2.007,1.239 c0.25,0.125,0.395,0.104,0.541-0.063c0.146-0.166,0.624-0.728,0.79-0.978s0.333-0.208,0.562-0.125s1.456,0.687,1.705,0.812 c0.25,0.125,0.416,0.187,0.478,0.291C17.106,14.471,17.106,14.971,16.898,15.554z" />
+                        </svg></i></a>
+                <a href="https://www.linkedin.com/in/maphutha-chikane-717559282/"><i class="icon"><svg
+                            xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 24 24" width="38px"
+                            height="38px">
+                            <path
+                                d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M9,17H6.477v-7H9 V17z M7.694,8.717c-0.771,0-1.286-0.514-1.286-1.2s0.514-1.2,1.371-1.2c0.771,0,1.286,0.514,1.286,1.2S8.551,8.717,7.694,8.717z M18,17h-2.442v-3.826c0-1.058-0.651-1.302-0.895-1.302s-1.058,0.163-1.058,1.302c0,0.163,0,3.826,0,3.826h-2.523v-7h2.523v0.977 C13.93,10.407,14.581,10,15.802,10C17.023,10,18,10.977,18,13.174V17z" />
+                        </svg></i></a>
+                <a href="http://m.me/maphutha.agree"><i class="icon"><svg width="38" height="38" viewBox="0 0 48 48"
+                            fill="currentcolor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0 24C0 37.2548 10.7452 48 24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24ZM14.8573 38.3643V33.2415C11.6489 30.7999 9.6 27.0813 9.6 22.9168C9.6 15.5621 15.99 9.6 23.8726 9.6C31.7556 9.6 38.1451 15.5621 38.1451 22.9168C38.1451 30.271 31.7556 36.2336 23.8726 36.2336C22.402 36.2336 20.9826 36.0259 19.6474 35.6411L14.8573 38.3643Z"
+                                fill="currentcolor" />
+                            <path
+                                d="M22.3485 19.2694L14.6514 27.419L21.6564 23.5756L25.3164 27.419L32.9701 19.2694L26.0428 23.0455L22.3485 19.2694Z"
+                                fill="currentcolor" />
+                        </svg>
+                </a>
+
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Maphutha Aggrey. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

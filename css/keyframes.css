@@ -1,0 +1,60 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInUp {
+    from {
+        transform: rotate(80deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(-20deg);
+        opacity: 1;
+    }
+}
+@keyframes opacity {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.myphoto {
+    animation: opacity 1.5s ease-in-out;
+}
+.circle {
+    animation: slideInUp 1s ease-in-out;
+}
+.hero,
+footer,
+.skills-hero,
+.about-hero,
+.certificates,
+.contact-hero {
+    animation: slideInLeft .5s ease-in-out;
+}
+
+@keyframes grow {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--target-width);
+    }
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    animation: grow 4s ease-in-out forwards;
+}
+
