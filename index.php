@@ -1,5 +1,6 @@
-<?php session_start(); ?>
+<!-- my PHP is working outside the Github because GitHub Pages only supports static content, meaning it cannot directly host dynamic files like PHP.
 
+<?php session_start(); ?> -->
 <!DOCTYPE html>
 <html lang="en">
 
