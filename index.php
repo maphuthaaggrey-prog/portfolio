@@ -1,6 +1,7 @@
 <!-- my PHP is working outside the Github because GitHub Pages only supports static content, meaning it cannot directly host dynamic files like PHP.
 
 <?php session_start(); ?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +22,7 @@
 
     <div class="container">
         <div class="navigation-bar">
-            <a href="index.php">
+            <a href="index.html">
                 <p class="logo">aggrey</p>
             </a>
             <nav>
@@ -41,7 +42,7 @@
                                     d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z" />
                             </svg></a>
                     </li>
-                    <li><a href="index.php" class="active">Home</a></li>
+                    <li><a href="index.index" class="active">Home</a></li>
                     <li>
                         <a href="certificates.html">Certificates</a>
                     </li>
