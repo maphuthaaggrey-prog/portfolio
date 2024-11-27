@@ -238,6 +238,7 @@ img:hover {
 }
 .box {
     width: 270px;
+    height: 200px;
     margin: 0 auto;
     transition: .2s ease-in-out;
 }
