@@ -238,7 +238,7 @@ img:hover {
 }
 .box {
     width: 270px;
-    height: 142px;
+    height: 182px;
     margin: 0 auto;
     transition: .2s ease-in-out;
 }
@@ -580,7 +580,10 @@ input:active {
 
     .box {
         width: 200px;
+         height: 142px;
     }
+    
+    
     .box.freeCode {
         width: 210px;
     }
