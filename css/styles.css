@@ -23,7 +23,6 @@ body, textarea{
 .container  {
     top: 0;
     z-index: 1;
-    position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-between;
