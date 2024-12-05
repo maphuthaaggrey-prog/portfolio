@@ -24,14 +24,14 @@ body, textarea{
     top: 0;
     z-index: 1;
     display: flex;
+    position: sticky;
     justify-content: space-between;
     
 }
 .container .navigation-bar {
     padding-top: .5em;
     padding-left: 1em;
-    position: sticky;
-   
+  
     background-color: var(--background);
     display: flex;
     justify-content: space-between;
