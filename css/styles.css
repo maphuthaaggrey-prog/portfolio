@@ -30,7 +30,6 @@ body, textarea{
 .container .navigation-bar {
     padding-top: .5em;
     padding-left: 1em;
-  
     background-color: var(--background);
     display: flex;
     justify-content: space-between;
