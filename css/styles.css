@@ -20,12 +20,19 @@ body, textarea{
 /*NAVIGATION */
 
 
+.container  {
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+}
 .container .navigation-bar {
     padding-top: .5em;
     padding-left: 1em;
     position: sticky;
-    top: 0;
-    z-index: 1;   
+   
     background-color: var(--background);
     display: flex;
     justify-content: space-between;
