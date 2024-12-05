@@ -62,7 +62,7 @@ nav ul {
     background-color: var(--background);
     font-size: 11px;
     position: fixed;
-    z-index: 999;
+    z-index: 1;
     top: 2em;
     right: 3em;
     box-shadow: 1px 12px 29px rgba(0, 0, 0, .2);
@@ -77,15 +77,16 @@ nav ul {
     text-align: right;
     transform: translateX(110%);
     transition: transform 0.5s ease-in-out;
-    li {
+}
+nav ul  li {
         cursor: pointer;
-        
         margin: 4em 0;
         &:nth-of-type(1) {
             margin-bottom: 3em;
             margin-top: 0;
         }
-        a {
+}
+nav ul li a {
             text-decoration: none;
             color: white;
             backdrop-filter: blur(100%);
@@ -96,8 +97,6 @@ nav ul {
             &:hover {
                 color: var(--tertiary-color);
             }
-        }
-    }
 }
 
 .logo:hover {
