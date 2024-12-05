@@ -23,9 +23,8 @@ body, textarea{
 .container  {
     top: 0;
     z-index: 1;
-    display: flex;
     position: sticky;
-    justify-content: space-between;
+
     
 }
 .container .navigation-bar {
