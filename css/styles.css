@@ -19,13 +19,11 @@ body, textarea{
 
 /*NAVIGATION */
 
-.container {
-   
-}
+
 .container .navigation-bar {
-     padding-top: .5em;
+    padding-top: .5em;
     padding-left: 1em;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1;   
     background-color: var(--background);
