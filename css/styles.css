@@ -22,15 +22,16 @@ body, textarea{
 .container {
     padding-top: .5em;
     padding-left: 1em;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 1;   
     background-color: var(--background);
-    .navigation-bar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: .5m;
-        z-index: 999;
-    }
+}
+.container .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5m;
+    
 }
 
 .logo {
