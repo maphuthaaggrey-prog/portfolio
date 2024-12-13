@@ -317,15 +317,15 @@ img:hover {
 .social-icons  {
     display: flex;
     align-items: center;
-    width: 300px;
+    width: 270px;
     justify-content: space-between;
     margin: 4em auto;
 }
 
 .social-icons svg {
     margin: 0;
-    padding: .6em;
-    border-radius: 6px;
+    padding: .7em;
+    border-radius: 10px;
     border: 2px solid;
     transition: transform .2s ease-in-out;
 }
