@@ -308,7 +308,7 @@ img:hover {
     width: 100%;
 }
 .box, .project-image {
-    border-radius: 3px;
+    border-radius: 20px;
 }
 
 .skills-hero {
