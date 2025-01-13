@@ -227,7 +227,7 @@ img:hover {
 }
 
 .cert-provider {
-    color: #DF2C2C;
+    color: #df1233;
 }
 
 .certificates-container {
@@ -420,14 +420,14 @@ a h3 {
 .footer-cont fieldset {
         border: none;
         padding: 2rem 0;
-        border-bottom: 3px solid #3b3b4f;
+        border-bottom: 3px solid #df1233;
       }
 input, textarea {
 
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom-color: #DF2C2C;
+    border-bottom-color: #df1233;
     border-bottom-width: 3px;
     border-radius: 3px;
     color: var(--text-color);
