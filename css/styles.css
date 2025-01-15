@@ -187,6 +187,7 @@ button:hover {
     margin-top: 2em;
     width: 320px;
     height: fit-content;
+    object-fit: contain;
 }
 .circle {
     width: 300px;
