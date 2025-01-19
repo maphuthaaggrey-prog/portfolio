@@ -15,7 +15,17 @@ body, textarea{
     font-family: 'Poppins';
     font-size: 13px;
 }
+ * {
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
 
+input, textarea, button, a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:focus, a:visited, a:active {
+    outline: none;
+}
 
 /*NAVIGATION */
 
