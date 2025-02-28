@@ -1,7 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+#popup {
+    width: 70vw;
+    max-width: 300px;
+    min-width: 100px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 999;
+    font-size: 13px;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 12px 29px rgba(0, 0, 0, 2);
+    list-style: none;
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 10); 
+    color: var(--tertiary);
+    padding: 3em;
+    transition: all 3s;
 
+}
+#close-popup a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+#close-popup {
+
+    background-color: var(--tertiary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  #close-popup:hover {
+    background-color:  #c41532;
+  }
 :root {
     --background: #161515;
     --text-color: #FFFFFF;
